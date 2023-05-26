@@ -1,0 +1,119 @@
+li a.active{
+  color: white;
+  background: none;
+}
+
+li a:hover{
+  background: none;
+  border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width:768px) {
+  li a.active{
+    color: #960DE9;
+  }
+  
+  li a:hover{
+color: #960DE9;
+border-bottom: none;
+  }
+  }
+
+.overlayBg{
+  background: url('./assets/v.png') right top no-repeat, url('./assets/overlay1.png') left top no-repeat;
+}
+
+/* Example CSS for the Swiper component */
+.photo-container {
+  /* height: 60vh; */
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin: 0px; */
+}
+.photos {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin-right: 0;
+  -webkit-box-reflect: below 0.01px
+    linear-gradient(transparent, transparent, #0006);
+}
+.swiper-container {
+  height: 50vh;
+}
+
+/* @media only screen and (max-width:1440px) {
+  .photo-container {
+    margin: 44px 0px;
+  }
+  }
+  @media only screen and (max-width:850px) {
+    .photo-container {
+      margin:  0px;
+    }
+    } */
+/* --- */
+.tabDesign{
+  background-image: url('./assets/bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.downTop{
+  margin-top: -70px;
+}
+
+.myButtonHover{
+  transition: all .9s ease;
+  margin-top: 18px;
+}
+.myButtonHover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 50px 5px  #B050EA;
+  background-color:#960DE9;
+}
+
+
+.hr_design{
+  border: none;
+    border-top: 2px double #ededed;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+}
+
+.hr_design:after {
+  content: 'Or';
+  background: white;
+  padding: 0 10px;
+  position: relative;
+  top: -13px;
+}
+
+.ActiveState{
+  background-color: white;
+  border-radius: 24px;
+  width: 96px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+footer form input {
+  width: 100%;
+  max-width: 257px;
+  height: 48px;
+  border: 2px solid white;
+  border-radius: 4px 0px 0px 4px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  font-weight: 400;
+  font-family: "Inter";
+  padding-left: 25px;
+}
