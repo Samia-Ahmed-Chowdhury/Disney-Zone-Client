@@ -1,7 +1,7 @@
 
 # **Disney Zone**
 
-This is project for Assignment 11
+This project is mainly based on Disney Princess dolls...
    
 <br/>
 
